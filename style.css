@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 70px;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+  background-color: darkSlateGray;
+  color: white;
+  border-bottom: none;
+}
+
+li {
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+  border-bottom: none;
+  list-style: none;
+  list-style-position: inside;
+  text-align: center;
+  background-color: salmon;
+  line-height: 150px;
+}
+
+li:first-child {
+  background-color: lightgray;
+}
+
+li:last-child {
+  background-color: lightblue;
+}
+
+ul {
+  width: 100%;
+  padding: 0;
+}
+
+#letters li{
+  width: 50%;
+  border-bottom: 1px solid black;
+  border-bottom: none;
+  border-right: none;
+  margin-top: 0px;
+  list-style: none;
+  list-style-position: inside;
+  text-align: center;
+  height: 250px;
+  float: left;
+  line-height: 250px;
+
+}
+
+#e {
+  background-color: darkOrange;
+}
+
+#f {
+  background-color: goldenRod;
+}
+
+#g {
+  background-color: moccasin;
+}
+
+#h {
+  background-color: lightpink;
+}
+
+footer {
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+  clear: both;
+  background-color: red;
+  text-align: center;
+}
+
+/*For Desktop*/
+
+@media only screen and (min-width: 800px) {
+  body {
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+
+  header {
+    background-color: black;
+    height: 100px;
+  }
+
+  li {
+    width: 39.583%;
+    float: left;
+    height: 200px;
+    border-left: none;
+    line-height: 200px;
+  }
+
+  li:first-child {
+    height: 600px;
+    width: 20.833%;
+    border-left: none;
+    line-height: 600px;
+  }
+
+  li:last-child {
+    border-right: none;
+  }
+
+  #letters li {
+    width: 19.791%;
+    float: left;
+    line-height: 250px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  #letters li:last-child {
+    border-right: none;
+  }
+
+  footer {
+    height: 600px;
+    width: 100%;
+    clear: none;
+    line-height: 150px;
+    border-right: none;
+    border-bottom: none;
+  }
+
+}
