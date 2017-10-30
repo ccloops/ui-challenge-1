@@ -7,14 +7,16 @@ body {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  line-height: 70px;
 }
 
 header {
-  padding-left: 10px;
+  text-align: center;
   width: 100%;
   height: 75px;
   border: 1px solid black;
   background-color: salmon;
+  border-bottom: none;
 }
 
 li {
@@ -24,13 +26,10 @@ li {
   border-bottom: none;
   list-style: none;
   list-style-position: inside;
-  padding-left: 25px;
-  padding-top: 20px;
+  text-align: center;
   background-color: salmon;
-}
+  line-height: 150px;
 
-li:last-child {
-  border-bottom: 1px solid black;
 }
 
 ul {
@@ -41,10 +40,13 @@ ul {
 #e li{
   width: 50%;
   border-bottom: 1px solid black;
+  border-bottom: none;
   border-right: none;
   margin-top: 0px;
   list-style: none;
   list-style-position: inside;
+  text-align: center;
+  height: 250px;
 
 }
 
@@ -55,9 +57,10 @@ ul {
 
 #g li{
   width: 50%;
-  border-bottom: 1px solid black;
   border-right: none;
   margin-top: 0px;
+  text-align: center;
+  height: 250px;
 
 }
 
@@ -67,9 +70,9 @@ ul {
 }
 
 footer {
-  padding-left: 10px;
   width: 100%;
   height: 75px;
   border: 1px solid black;
   background-color: salmon;
+  text-align: center;
 }
